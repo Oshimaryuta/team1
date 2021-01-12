@@ -1,0 +1,331 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main{
+  margin: 0px;
+  font-size: 30px;
+}
+
+.main div{
+  margin-top: 0px;
+  padding-top: 30px; 
+  margin-left: 50px;
+  font-family: serif;
+}
+
+.main div h1{
+  font-size: 30px;
+}
+
+.main div ul{
+  font-size: large;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.main a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.main a:active{
+  color: black;
+}
+
+/* ホーム画面 */
+
+#home{
+  min-height: 100vh;
+  width: 1600px;
+  background: url('img/top-view-accessories-for-sewing-and-copy-space.jpg')  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#home .keyword{
+  width: 500px;
+  height: 40px;
+}
+
+
+/* マイページ画面 */
+
+#mypage{
+  min-height: 100vh;
+  width: 1600px;
+  background-image: url('img/books-485479_1920.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+
+#mypage li{
+  width: 700px;
+  /* text-align: center; */
+  margin-left: 40px;
+  border: 4px solid yellow;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+/* ログイン画面 */
+
+#login{
+  min-height: 100vh;
+  width: 1600px;
+  background: url('img/339009_m.jpg')  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  
+}
+
+#login form{
+  width: 500px;
+  height: 450px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#login h1{
+  color: rgb(255, 226, 7);
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#login form .btn{
+  background-color: white;
+  border-radius: 0;
+  border: white;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#login input{
+  width: 300px;
+}
+
+form p{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+/* 新規登録画面 */
+
+#newcomer{
+  min-height: 100vh;
+  width: 1600px;
+  background: url('img/339009_m.jpg')  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  
+}
+
+#newcomer form{
+  width: 500px;
+  height: 450px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#newcomer h1{
+  color: rgb(255, 226, 7);
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#newcomer form .btn{
+  background-color: white;
+  border-radius: 0;
+  border: white;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#newcomer input{
+  width: 300px;
+}
+
+/* 検索結果画面 */
+
+#result{
+  min-height: 100vh;
+  width: 1600px;
+  background-image: url('img/books-485479_1920.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+}
+
+#result li{
+  width: 700px;
+  /* text-align: center; */
+  margin-left: 40px;
+  border: 4px solid yellow;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+#result form{
+  text-align: center;
+}
+
+#result .keyword{
+  width: 500px;
+  height: 40px;
+}
+
+
+/* 本登録画面 */
+
+#register{
+  min-height: 100vh;
+  width: 1600px;
+  background: url('img/drawing-pad-1209781_1922.jpg')  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#register form{
+  text-align: center;
+}
+
+#register .form{
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  margin-top: 50px; 
+  display: flex;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+#register form .btn{
+  background-color: rgb(255, 226, 7);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#register input{
+  width: 300px;
+}
+
+#register .about{
+  height: 300px;
+}
+
+#register .btn{
+  margin-top: 30px;
+}
+
+/* 本詳細画面 */
+
+#detail{
+  min-height: 100vh;
+  width: 1600px;
+  background: url('img/diary-3299128_1921.jpg')  no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  position: relative;
+}
+
+#detail .info{
+  text-align: center;
+  padding: 50px;
+  padding-left: 440px;
+  margin: auto;
+  display: flex;
+}
+
+#detail .flex{
+  margin: 100px;
+}
+
+#detail .back{
+  text-align: right;
+  margin: 30px;
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+
+/* ページ上部への遷移ボタン */
+
+#page_top{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ffaf02;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
